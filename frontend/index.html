@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-messages" id="chat-messages">
+      <div class="message bot">
+        <p>This AI chatbot has been developed to optimize communication and simplify work processes, ultimately leading to smoother operations.</p>
+      </div>
+      <div class="message user">
+        <p>Thank You :)</p>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="message-input" placeholder="Type a new message here" autocomplete="off" />
+      <div class="icons">
+        <button class="icon-btn" title="Emoji" type="button">😊</button>
+        <button class="icon-btn" title="Attach File" type="button">📎</button>
+        <button class="icon-btn" title="Send" id="send-btn" type="button">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
